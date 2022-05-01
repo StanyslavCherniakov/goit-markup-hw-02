@@ -14,6 +14,8 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -23,12 +25,20 @@ ul {
 /* Шапка */
 .logo {
   color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo span {
   color: #2196f3;
 }
 .site-nav .link {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -39,6 +49,10 @@ ul {
 }
 .auth-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -46,35 +60,97 @@ ul {
 }
 
 /* Герой */
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
-  color: grey;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero button {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 /* Особенности */
 .features .title {
   color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Чем мы занимаемся */
 .section-wedo .title {
   color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Наша команда */
+.section-teem {
+  background-color: var(--secondary-bg-color);
+}
+.teem-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
 .teem {
   color: var(--secondary-text-color);
 }
 .teem-name {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
 }
 /* Футер */
+.bottom {
+  background-color: #2f303a;
+}
+.bottom a {
+  color: #ffffff;
+}
 .adress-list .item {
-  color: var(--primary-text-color);
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.adress-list .link.item {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .adress-list a:hover,
 .adress-list a:focus {
