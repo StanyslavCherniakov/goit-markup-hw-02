@@ -1,0 +1,101 @@
+/* Цвет основного текста : #757575 */
+/* Вторичный цвет текста #212121 */
+/* Белый цвет #FFFFFF */
+/* Цвет акцента #2196F3 */
+/* Вторичный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-bg-color: #f5f4fa;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Шапка */
+.logo {
+  color: #000000;
+}
+.logo span {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.link.current {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.hero-title {
+  color: grey;
+}
+.hero button {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Особенности */
+.features .title {
+  color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+.section-wedo .title {
+  color: var(--secondary-text-color);
+}
+
+/* Наша команда */
+.teem {
+  color: var(--secondary-text-color);
+}
+.teem-name {
+  color: var(--secondary-text-color);
+}
+/* Футер */
+.adress-list .item {
+  color: var(--primary-text-color);
+}
+.adress-list a:hover,
+.adress-list a:focus {
+  color: var(--accent-color);
+}
+
+/* Портфолио */
+.button-item {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+  cursor: pointer;
+}
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.project-title {
+  color: var(--secondary-text-color);
+}
+.project-type {
+  color: var(--primary-text-color);
+}
