@@ -18,7 +18,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
@@ -29,6 +29,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 .logo span {
   color: #2196f3;
@@ -39,6 +40,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -53,6 +55,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -92,7 +95,6 @@ ul {
   text-transform: uppercase;
 }
 .features p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -128,7 +130,6 @@ ul {
 }
 
 .role {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -142,18 +143,17 @@ ul {
 .adress-list .item {
   color: #ffffff;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .adress-list .link.item {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
-.adress-list a:hover,
-.adress-list a:focus {
+.adress-list .link:hover,
+.adress-list .link:focus {
   color: var(--accent-color);
 }
 
@@ -162,6 +162,10 @@ ul {
   background-color: var(--secondary-bg-color);
   color: var(--secondary-text-color);
   cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .button-item:hover,
 .button-item:focus {
@@ -171,7 +175,17 @@ ul {
 
 .project-title {
   color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .project-type {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.projects .link {
+  text-decoration: none;
 }
