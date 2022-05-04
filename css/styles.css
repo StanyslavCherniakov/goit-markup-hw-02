@@ -8,11 +8,15 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
+  --bg-section-color: #2f303a;
   --secondary-bg-color: #f5f4fa;
+  --white-color: #ffffff;
+  --footer-color-adress: rgba(255, 255, 255, 0.6);
+  --black-color: #000000;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
@@ -24,7 +28,7 @@ body {
 
 /* Шапка */
 .logo {
-  color: #000000;
+  color: var(--black-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -32,10 +36,10 @@ body {
   text-decoration: none;
 }
 .logo span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,10 +68,10 @@ body {
 
 /* Герой */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bg-section-color);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -76,8 +80,8 @@ body {
   text-transform: uppercase;
 }
 .hero button {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--white-color);
   cursor: pointer;
   font-family: inherit;
   font-weight: 700;
@@ -135,19 +139,19 @@ body {
 }
 /* Футер */
 .bottom {
-  background-color: #2f303a;
+  background-color: var(--bg-section-color);
 }
 .bottom a {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .adress-list .item {
-  color: #ffffff;
+  color: var(--white-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 .adress-list .link.item {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-color-adress);
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
@@ -170,7 +174,7 @@ body {
 .button-item:hover,
 .button-item:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .project-title {
